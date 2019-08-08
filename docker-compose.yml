@@ -1,0 +1,7 @@
+version: "3"
+services:
+  express:
+    image: oomusou/vue-express:0.0.1
+    restart: always
+    ports:
+      - "80:80"
